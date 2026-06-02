@@ -76,7 +76,7 @@ Esto genera:
 
 | Actor                 | Responsabilidad                      |
 | --------------------- | ------------------------------------ |
-| Operador de Tesorería     | Generación de transferencias masivas |
+| Operador de Tesorería | Cargar mensualmente las planillas de pago, previsualizar los lotes de datos y descargar el archivo TEF de ancho fijo de forma ágil y segura |
 | Analista Contable     | Conciliación de extractos bancarios  |
 | Gerente de Finanzas   | Supervisión y control financiero     |
 | Administrador IT      | Infraestructura y monitoreo          |
