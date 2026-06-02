@@ -31,7 +31,6 @@ Base de Datos MySQL
 
 * [Descripción del Sistema](#descripción-del-sistema)
 * [Problemática](#problemática-en-el-contexto-real)
-* [Solución Tecnológica](#solución-tecnológica-implementada)
 * [Stakeholders](#identificación-de-stakeholders)
 * [Requisitos Funcionales](#requisitos-funcionales-rf)
 * [Requisitos No Funcionales](#requisitos-no-funcionales-rnf)
@@ -58,7 +57,8 @@ Cada una posee balances y entornos contables independientes.
 
 # Problemática en el Contexto Real
 
-Las operaciones financieras tradicionales presentan una desconexión entre los sistemas bancarios y los sistemas ERP corporativos.
+Las operaciones financieras tradicionales presentan una desconexión entre los sistemas bancarios y los sistemas ERP corporativos. Las tareas rutinarias, como la conciliación de extractos bancarios diarios y el alta de cuentas para
+transferencias masivas de fondos, suelen realizarse de manera manual.
 
 Esto genera:
 
@@ -67,34 +67,6 @@ Esto genera:
 * Riesgo operativo en transferencias masivas.
 * Procesos manuales repetitivos y propensos a errores.
 
----
-
-# Solución Tecnológica Implementada
-
-El Portal Financiero actúa como un middleware seguro entre:
-
-* Interbanking API Gateway
-* SAP Business One Service Layer
-
-### Funcionalidades principales
-
-## 1. Generador de Archivos TEF
-
-* Lectura de archivos `.xlsx`, `.csv` y `.txt`
-* Validación de CBU y CUIT
-* Generación automática del layout Interbanking
-
-## 2. Sincronización de Extractos Bancarios
-
-* Descarga automática de movimientos bancarios
-* Integración directa con SAP Business One
-* Impacto automático en cuentas contables
-
-## 3. Sincronización de Datos Maestros
-
-* Comparación de datos bancarios
-* Actualización automática de CBU de proveedores
-* Integración mediante protocolo OData
 
 ---
 
@@ -104,7 +76,7 @@ El Portal Financiero actúa como un middleware seguro entre:
 
 | Actor                 | Responsabilidad                      |
 | --------------------- | ------------------------------------ |
-| Operador de Tesorería | Generación de transferencias masivas |
+| Operador de Tesorería     | Generación de transferencias masivas |
 | Analista Contable     | Conciliación de extractos bancarios  |
 | Gerente de Finanzas   | Supervisión y control financiero     |
 | Administrador IT      | Infraestructura y monitoreo          |
