@@ -76,10 +76,10 @@ Esto genera:
 
 | Actor                 | Responsabilidad                      |
 | --------------------- | ------------------------------------ |
-| Operador de Tesorería | Cargar mensualmente las planillas de pago, previsualizar los lotes de datos y descargar el archivo TEF de ancho fijo de forma ágil y segura |
-| Analista Contable     | Conciliación de extractos bancarios  |
-| Gerente de Finanzas   | Supervisión y control financiero     |
-| Administrador IT      | Infraestructura y monitoreo          |
+| Operador de Tesorería | Cargar mensualmente las planillas de pago, previsualizar los lotes de datos y descargar el archivo TEF de ancho fijo de forma ágil y segura. |
+| Analista Contable     | Conciliación de extractos bancarios, validando los asientos correctamente reflejados en la cuenta mayor de la BD de SAP correspondiente de forma inmediata  |
+| Gerente de Finanzas   | Supervisión y control financiero: reduce los costos operativos, mitiga riesgos de auditoría contable y supevisa transferencias masivas mediante notificaciones rápidas y seguras.    |
+| Administrador IT      | Infraestructura y monitoreo del correcto funcionamiento del servidor web, manitiene conexiones del Service Layer de SAP, resguarda las credenciales en el archivo de entorno y audita las ejecuciones asincronicas del sistema.          |
 
 ## Actores Externos
 
