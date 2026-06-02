@@ -7,6 +7,25 @@
 **Empresa:** Essential Energy Holding (EEH)
 
 ---
+## Tecnologías Utilizadas
+
+- PHP 8.3
+- MySQL
+- SAP Business One Service Layer
+- Interbanking API
+- Google OAuth 2.0
+
+## Arquitectura General
+
+Interbanking API
+        ↓
+Portal Financiero EEH
+        ↓
+SAP Business One
+        ↓
+Base de Datos MySQL
+---
+---
 
 ## Tabla de Contenidos
 
