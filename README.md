@@ -57,8 +57,7 @@ Cada una posee balances y entornos contables independientes.
 
 # Problemática en el Contexto Real
 
-Las operaciones financieras tradicionales presentan una desconexión entre los sistemas bancarios y los sistemas ERP corporativos. Las tareas rutinarias, como la conciliación de extractos bancarios diarios y el alta de cuentas para
-transferencias masivas de fondos, suelen realizarse de manera manual.
+Las operaciones financieras tradicionales presentan una desconexión entre los sistemas bancarios y los sistemas ERP corporativos. Las tareas rutinarias, como la conciliación de extractos bancarios diarios y el alta de cuentas para transferencias masivas de fondos, suelen realizarse de manera manual.
 
 Esto genera:
 
@@ -79,7 +78,7 @@ Esto genera:
 | Operador de Tesorería | Cargar mensualmente las planillas de pago, previsualizar los lotes de datos y descargar el archivo TEF de ancho fijo de forma ágil y segura. |
 | Analista Contable     | Conciliación de extractos bancarios, validando los asientos correctamente reflejados en la cuenta mayor de la BD de SAP correspondiente de forma inmediata  |
 | Gerente de Finanzas   | Supervisión y control financiero: reduce los costos operativos, mitiga riesgos de auditoría contable y supevisa transferencias masivas mediante notificaciones rápidas y seguras.    |
-| Administrador IT      | Infraestructura y monitoreo del correcto funcionamiento del servidor web, manitiene conexiones del Service Layer de SAP, resguarda las credenciales en el archivo de entorno y audita las ejecuciones asincronicas del sistema.          |
+| Administrador IT      | Infraestructura y monitoreo del correcto funcionamiento del servidor web, mantiene conexiones del Service Layer de SAP, resguarda las credenciales en el archivo de entorno y audita las ejecuciones asincronicas del sistema.          |
 
 ## Actores Externos
 
@@ -139,7 +138,7 @@ El sistema debe contrastar un padrón bancario de cuentas de Interbanking con el
 ### RNF-01
 
 **Procesamiento asíncrono de tareas pesadas.**
-El procesamiento de generación de reportes y exportación de PDFs debe ocurrir en un proceso separado (CLI Background Process). El portal web debe liberar la conexión del navegador del usuario en menos de100milisegundos tras enviar la confirmación.
+El procesamiento de generación de reportes y exportación de PDFs debe ocurrir en un proceso separado (CLI Background Process). El portal web debe liberar la conexión del navegador del usuario en menos de 100 milisegundos tras enviar la confirmación.
 
 ### RNF-02
 
