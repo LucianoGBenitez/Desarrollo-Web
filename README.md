@@ -6,6 +6,8 @@
 **Carrera:** Analista Funcional en Sistemas Informáticos
 **Empresa:** Essential Energy Holding (EEH)
 
+**Integrantes:** Benitez Luciano, Breppe Gianluca, Gomez Eros y Pizzicatti Gianluca
+
 ---
 ## Tecnologías Utilizadas
 
